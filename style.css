@@ -1,29 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
     background-color: #f4f4f4;
 }
 
+/* Container */
 .container {
     max-width: 900px;
     margin: 40px auto;
-    background: white;
+    background: #ffffff;
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+/* Header */
 h1 {
     color: #1f3c88;
 }
 
-h2 {
+.role {
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Sections */
+section {
     margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
 }
 
-.role {
-    font-size: 18px;
-    color: #555;
+/* Project cards */
+.project-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    background-color: #1f3c88;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #163172;
 }
